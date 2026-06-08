@@ -6,7 +6,7 @@ A clean, responsive calculator app built with React and TypeScript.
 
 ## Live Demo
 
-[https://calculator-madza.netlify.app](https://calculator-madza.netlify.app)
+[https://react-calc-rosy.vercel.app/](https://react-calc-rosy.vercel.app/)
 
 ---
 
