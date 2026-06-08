@@ -1,0 +1,24 @@
+.wrapper {
+  width: 360px;
+  padding: 24px;
+  border-radius: 28px;
+  background-color: #faf7f2;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 12px 40px rgba(0, 0, 0, 0.10),
+    0 1px 0px rgba(255, 255, 255, 0.9) inset;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.wrapper::before {
+  content: 'My Calculator';
+  display: block;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #b5a898;
+  text-align: center;
+  margin-bottom: 18px;
+}

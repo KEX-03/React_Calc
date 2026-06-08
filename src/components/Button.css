@@ -1,0 +1,75 @@
+button {
+  height: 64px;
+  border: none;
+  background-color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d2a3e;
+  cursor: pointer;
+  border-radius: 16px;
+  outline: none;
+  box-shadow:
+    0 2px 0 #d4cfc8,
+    0 3px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 80ms ease, box-shadow 80ms ease, background-color 150ms ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+button:hover {
+  background-color: #f5f0eb;
+}
+
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 0 #d4cfc8, 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Utility buttons: C, +-, % */
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3) {
+  background-color: #ede8e0;
+  color: #5a5570;
+  box-shadow: 0 2px 0 #c8c2ba, 0 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+button:nth-child(1):hover,
+button:nth-child(2):hover,
+button:nth-child(3):hover {
+  background-color: #e3ddd4;
+}
+
+/* Operator buttons: /, X, -, + */
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16) {
+  background-color: #2ec4b6;
+  color: #ffffff;
+  box-shadow: 0 2px 0 #1fa89d, 0 3px 6px rgba(46, 196, 182, 0.25);
+}
+
+button:nth-child(4):hover,
+button:nth-child(8):hover,
+button:nth-child(12):hover,
+button:nth-child(16):hover {
+  background-color: #29b5a8;
+}
+
+/* Equals button */
+.equals {
+  grid-column: 3 / 5;
+  background-color: #ff6b6b;
+  color: #ffffff;
+  font-size: 22px;
+  box-shadow: 0 2px 0 #d94f4f, 0 3px 10px rgba(255, 107, 107, 0.35);
+}
+
+.equals:hover {
+  background-color: #f55a5a;
+}
+
+.equals:active {
+  box-shadow: 0 0 0 #d94f4f, 0 1px 4px rgba(255, 107, 107, 0.2);
+}

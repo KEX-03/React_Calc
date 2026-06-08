@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0ebe3;
+  background-image:
+    radial-gradient(circle at 20% 20%, #e8d5c4 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, #d4e8e0 0%, transparent 50%);
+}
